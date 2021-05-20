@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+    padding:0;
+    margin:0;
+}
+header{
+    background-image: url('../image/holi-splash-3840x2160.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.left{
+    width:40%;
+    height:auto;
+    float: left;
+    margin-right:6%;
+    padding-left:6%;
+}
+span{
+    color:orange;
+}
+a{
+    text-decoration: none;
+    list-style:none;
+    font-weight:bold;
+    color:white;
+    padding:7px 15px;
+    background-image:linear-gradient(45deg,green,tomato);
+}
+.right{
+    width:40%;
+    height: auto;
+    display: inline-block;
+}
+img{
+    width:100%;
+    height: 550px;
+    display:block;
+    border-radius:500px;
+}
+.section1{
+    background-image: url('../image/happy-holi-wallpaper-hd-1080p.jpg');
+    background-size:cover;
+    padding-top:150px;
+    display:block;
+    overflow:hidden;
+}
+.stract{
+    box-shadow:10px 10px 40px grey;
+    padding:20px;
+    text-align: center;
+}
+.section2{
+    margin:100px 0;
+}
+.first{
+    margin-left:4%;
+    border-left:5px solid;
+    border-image:linear-gradient(green,tomato);
+    border-image-slice:1;
+}
+.second{
+    border-left:5px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice:1;
+}
+
